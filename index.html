@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff6b00;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #333;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        .featured-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Basketball Central</h1>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#scores">Scores</a>
+        <a href="#teams">Teams</a>
+        <a href="#players">Players</a>
+    </nav>
+
+    <div class="container">
+        <img src="https://source.unsplash.com/random/1200x400/?basketball" alt="Basketball" class="featured-image">
+        
+        <h2>Latest News</h2>
+        <div class="news-grid">
+            <article>
+                <h3>NBA Season Update</h3>
+                <p>Stay updated with the latest scores, highlights, and player statistics from around the league.</p>
+            </article>
+            
+            <article>
+                <h3>Top Players</h3>
+                <p>Check out the current league leaders in points, rebounds, assists, and more.</p>
+            </article>
+        </div>
+
+        <h2>Upcoming Games</h2>
+        <div class="games-schedule">
+            <ul>
+                <li>Lakers vs. Celtics - 7:30 PM EST</li>
+                <li>Warriors vs. Nets - 8:00 PM EST</li>
+                <li>Bulls vs. Heat - 7:00 PM EST</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
